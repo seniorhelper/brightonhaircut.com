@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Brighton Haircut | A Nu Do Salon Brighton CO</title>
+<meta name="description" content="Brighton Haircut experts at A Nu Do Salon in Brighton CO. Precision cuts, color, highlights, and styling. Call (303) 835-2375 to book your appointment today.">
+<link rel="icon" type="image/png" href="favicon-a.png">
+
+<!-- Open Graph -->
+<meta property="og:title" content="Brighton Haircut | A Nu Do Salon">
+<meta property="og:description" content="Top rated Brighton haircut and hair color services. Friendly local salon. Call now to schedule.">
+<meta property="og:type" content="website">
+
+<style>
+:root{
+  --primary:#c97c5d;
+  --accent:#2f4858;
+  --light:#fafafa;
+  --mid:#f1f1f1;
+}
+*{box-sizing:border-box}
+body{
+  margin:0;
+  font-family:Arial, Helvetica, sans-serif;
+  line-height:1.6;
+  color:#222;
+  background:#ffffff;
+}
+header{
+  position:sticky;
+  top:0;
+  background:#fff;
+  border-bottom:1px solid #e5e5e5;
+  z-index:999;
+}
+.topbar{
+  max-width:1200px;
+  margin:auto;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding:14px 18px;
+}
+.logo{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  font-weight:800;
+  font-size:22px;
+  letter-spacing:.5px;
+}
+.logo-badge{
+  width:38px;
+  height:38px;
+  border-radius:6px;
+  background:var(--primary);
+  color:#fff;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-weight:900;
+}
+.header-phone a{
+  font-size:22px;
+  font-weight:900;
+  color:var(--accent);
+  text-decoration:none;
+}
+.header-phone a:hover{ text-decoration:underline; }
+
+.hero{
+  position:relative;
+  overflow:hidden;
+  background:linear-gradient(120deg,var(--light) 60%, var(--mid) 60%);
+}
+.hero-inner{
+  max-width:1200px;
+  margin:auto;
+  padding:70px 18px 80px;
+  display:grid;
+  grid-template-columns:1.1fr .9fr;
+  gap:40px;
+}
+.hero h1{
+  font-size:48px;
+  margin:0 0 18px;
+  line-height:1.1;
+}
+.hero h1 span{ color:var(--primary); }
+.hero p{
+  font-size:18px;
+  margin-bottom:26px;
+}
+.btn{
+  display:inline-block;
+  padding:16px 26px;
+  background:var(--primary);
+  color:#fff;
+  text-decoration:none;
+  font-weight:700;
+  letter-spacing:.5px;
+}
+.btn.secondary{
+  background:var(--accent);
+}
+.hero-card{
+  background:#fff;
+  border:1px solid #e6e6e6;
+  padding:28px;
+}
+.hero-card h3{
+  margin-top:0;
+  font-size:22px;
+}
+.slant{
+  position:absolute;
+  bottom:-60px;
+  left:0;
+  width:100%;
+  height:120px;
+  background:#fff;
+  transform:skewY(-4deg);
+}
+section{
+  max-width:1100px;
+  margin:auto;
+  padding:70px 18px;
+}
+section.alt{ background:var(--mid); max-width:none; }
+.section-inner{ max-width:1100px; margin:auto; }
+h2{
+  font-size:34px;
+  margin-top:0;
+  margin-bottom:18px;
+  color:var(--accent);
+}
+h3{ color:var(--accent); }
+.grid-3{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:22px;
+}
+.card{
+  background:#fff;
+  border:1px solid #e3e3e3;
+  padding:24px;
+}
+.cta-strip{
+  background:var(--accent);
+  color:#fff;
+  text-align:center;
+  padding:46px 18px;
+}
+.cta-strip h2{ color:#fff; margin:0 0 14px; }
+.reviews blockquote{
+  margin:0;
+  font-style:italic;
+}
+.faq-item{
+  border-bottom:1px solid #ddd;
+  padding:14px 0;
+}
+.faq-item button{
+  width:100%;
+  text-align:left;
+  background:none;
+  border:none;
+  font-size:18px;
+  font-weight:700;
+  padding:8px 0;
+  cursor:pointer;
+}
+.faq-answer{ display:none; padding:6px 0 10px; }
+.map-wrap iframe{
+  width:100%;
+  height:420px;
+  border:0;
+}
+footer{
+  background:#111;
+  color:#eee;
+  padding:40px 18px;
+}
+footer a{ color:#fff; }
+.footer-grid{
+  max-width:1100px;
+  margin:auto;
+  display:grid;
+  grid-template-columns:2fr 1fr 1fr;
+  gap:20px;
+}
+.small{ font-size:14px; color:#ccc; }
+@media(max-width:900px){
+  .hero-inner{ grid-template-columns:1fr; }
+  .grid-3{ grid-template-columns:1fr; }
+  .footer-grid{ grid-template-columns:1fr; }
+  .hero h1{ font-size:36px; }
+}
+</style>
+
+<!-- Breadcrumb Schema -->
+<script type="application/ld+json">
+{
+ "@context":"https://schema.org",
+ "@type":"BreadcrumbList",
+ "itemListElement":[
+  {"@type":"ListItem","position":1,"name":"Home","item":"https://brightonhaircut.com/"},
+  {"@type":"ListItem","position":2,"name":"Brighton Haircut","item":"https://brightonhaircut.com/"}
+ ]
+}
+</script>
+
+<!-- Local Business Schema -->
+<script type="application/ld+json">
+{
+ "@context":"https://schema.org",
+ "@type":"HairSalon",
+ "name":"A Nu Do Hair & Tanning Salon",
+ "url":"https://www.anudosalon.com/",
+ "telephone":"+13038352375",
+ "email":"anudo.salon@gmail.com",
+ "address":{
+   "@type":"PostalAddress",
+   "streetAddress":"119 W. Bridge St., Unit C",
+   "addressLocality":"Brighton",
+   "addressRegion":"CO",
+   "postalCode":"80601",
+   "addressCountry":"US"
+ },
+ "openingHoursSpecification":[
+  {"@type":"OpeningHoursSpecification","dayOfWeek":["Wednesday","Thursday","Friday"],"opens":"09:00","closes":"19:00"},
+  {"@type":"OpeningHoursSpecification","dayOfWeek":"Saturday","opens":"09:00","closes":"16:00"}
+ ]
+}
+</script>
+
+<!-- FAQ Schema -->
+<script type="application/ld+json">
+{
+"@context":"https://schema.org",
+"@type":"FAQPage",
+"mainEntity":[
+{"@type":"Question","name":"Do I need an appointment for a Brighton haircut?","acceptedAnswer":{"@type":"Answer","text":"Appointments are strongly recommended. Walk ins are welcome when time is available."}},
+{"@type":"Question","name":"Where is A Nu Do Salon located?","acceptedAnswer":{"@type":"Answer","text":"119 W. Bridge St., Unit C, Brighton, CO 80601."}},
+{"@type":"Question","name":"What haircut services do you offer?","acceptedAnswer":{"@type":"Answer","text":"We offer women, men, and kids haircuts, precision cuts, restyles, and trims."}},
+{"@type":"Question","name":"Do you also provide hair color?","acceptedAnswer":{"@type":"Answer","text":"Yes. We provide full color, highlights, balayage, and corrective color."}},
+{"@type":"Question","name":"How do I book?","acceptedAnswer":{"@type":"Answer","text":"Call (303) 835-2375 or visit the contact page to request an appointment."}},
+{"@type":"Question","name":"Are you open weekends?","acceptedAnswer":{"@type":"Answer","text":"We are open Saturdays from 9:00 AM to 4:00 PM."}},
+{"@type":"Question","name":"Do you offer tanning services?","acceptedAnswer":{"@type":"Answer","text":"Yes, tanning services are available along with hair services."}},
+{"@type":"Question","name":"Is the salon kid friendly?","acceptedAnswer":{"@type":"Answer","text":"Yes, we welcome children and families."}},
+{"@type":"Question","name":"What forms of payment are accepted?","acceptedAnswer":{"@type":"Answer","text":"Most major cards and common payment methods are accepted."}},
+{"@type":"Question","name":"Can I get styling advice with my haircut?","acceptedAnswer":{"@type":"Answer","text":"Yes. Stylists provide guidance on daily styling and maintenance."}},
+{"@type":"Question","name":"Do you fix previous haircut issues?","acceptedAnswer":{"@type":"Answer","text":"Yes, corrective cuts and adjustments are available."}},
+{"@type":"Question","name":"Where can I see full services?","acceptedAnswer":{"@type":"Answer","text":"Visit https://anudosalon.com/services/ for the full service list."}}
+]
+}
+</script>
+</head>
+
+<body>
+
+<header>
+  <div class="topbar">
+    <div class="logo">
+      <div class="logo-badge">A</div>
+      Brighton Haircut
+    </div>
+    <div class="header-phone">
+      <a href="tel:13038352375">(303) 835-2375</a>
+    </div>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="hero-inner">
+    <div>
+      <h1>Best <span>Brighton Haircut</span> Styles That Turn Heads</h1>
+      <p>If you want a Brighton haircut that looks sharp, feels right, and grows out clean, you are in the right place. A Nu Do Salon delivers precision cuts, modern styles, and friendly service in the heart of Brighton, Colorado. Call now and get scheduled with a stylist who listens.</p>
+      <a class="btn" href="tel:13038352375">Call Now To Book</a>
+      <a class="btn secondary" href="https://www.anudosalon.com/" target="_blank" rel="noopener">Visit Main Salon Site</a>
+    </div>
+    <div class="hero-card">
+      <h3>Reach Out to Our Experts</h3>
+      <p><strong>A Nu Do Hair & Tanning Salon</strong><br>
+      119 W. Bridge St., Unit C<br>
+      Brighton, CO 80601</p>
+      <p><strong>Phone:</strong> (303) 835-2375<br>
+      <strong>Email:</strong> anudo.salon@gmail.com</p>
+      <p><strong>Hours</strong><br>
+      Wed – Fri: 9:00 AM – 7:00 PM<br>
+      Sat: 9:00 AM – 4:00 PM<br>
+      Mon, Tue & Sun: Closed</p>
+      <a class="btn" href="https://anudosalon.com/contact/" target="_blank" rel="noopener">Request Appointment</a>
+    </div>
+  </div>
+  <div class="slant"></div>
+</section>
+
+<section>
+  <h2>Why Locals Choose This Brighton Haircut Salon</h2>
+  <p>First, experience matters. The stylists at A Nu Do Salon work with all hair types and textures every week. Because of that, they know how to adjust technique for your hair, not just follow a script. As a result, your cut fits your face shape and your daily routine.</p>
+  <p>Next, consultation comes first. Before any Brighton haircut begins, your stylist asks clear questions. For example, how much time do you spend styling? Do you air dry or blow dry? Do you want movement or structure? Therefore, the finished look matches your real life.</p>
+  <p>Also, the environment is relaxed and friendly. You are not rushed through a chair. Instead, you get focused attention. Meanwhile, you can ask questions and get honest feedback. That leads to better results and fewer surprises.</p>
+  <p>In addition, the salon offers more than basic cuts. You can combine your haircut with color, highlights, or conditioning services. Consequently, you leave with a complete, polished look instead of just a trim.</p>
+</section>
+
+<section class="alt">
+  <div class="section-inner grid-3">
+    <div class="card">
+      <h3>Precision Haircuts</h3>
+      <p>Every Brighton haircut is shaped with detail in mind. Clean lines, balanced layers, and smooth blending are standard. Because of that, your style holds its form longer between visits.</p>
+    </div>
+    <div class="card">
+      <h3>Color & Highlights</h3>
+      <p>From subtle refresh to bold change, color services are available. You can review options on the <a href="https://anudosalon.com/services/" target="_blank" rel="noopener">full services list</a>. Then choose what fits your goals.</p>
+    </div>
+    <div class="card">
+      <h3>Friendly Expert Team</h3>
+      <p>Clients often mention how listened to they feel. That matters. When communication is clear, results improve. Therefore, satisfaction stays high.</p>
+    </div>
+  </div>
+</section>
+
+<section class="reviews">
+  <h2>Real Client Reviews</h2>
+  <div class="grid-3">
+    <div class="card">
+      <blockquote>“The tanning salon is clean, and the beds are high quality. The staff really focuses on walking through each step. I never leave without a good result.”</blockquote>
+      <p><strong>— Daviana C.</strong></p>
+    </div>
+    <div class="card">
+      <blockquote>“I had an amazing experience with Kris. She nailed the cut. It has so much movement and shape, exactly what I was hoping for.”</blockquote>
+      <p><strong>— Michelle D.</strong></p>
+    </div>
+    <div class="card">
+      <blockquote>“Kris is the best. She knows her craft incredibly well and tailors her technique to each client.”</blockquote>
+      <p><strong>— April J.</strong></p>
+    </div>
+  </div>
+</section>
+
+<section class="cta-strip">
+  <h2>Ready For Your Brighton Haircut?</h2>
+  <p>Call now or request your appointment online. Fast scheduling. Friendly service. Great results.</p>
+  <a class="btn" href="tel:13038352375">Call (303) 835-2375</a>
+</section>
+
+<section>
+  <h2>Find Our Brighton Haircut Location</h2>
+  <div class="map-wrap">
+    <iframe src="https://www.google.com/maps?q=119+W.+Bridge+St.,+Unit+C+Brighton+CO+80601&output=embed"></iframe>
+  </div>
+</section>
+
+<section>
+  <h2>Brighton Haircut FAQ</h2>
+  <div class="faq-item"><button>Do I need an appointment?</button><div class="faq-answer">Appointments are recommended. However, walk ins are accepted when time allows.</div></div>
+  <div class="faq-item"><button>Do you cut men’s and women’s hair?</button><div class="faq-answer">Yes. We provide haircuts for women, men, and children.</div></div>
+  <div class="faq-item"><button>Can I get color the same visit?</button><div class="faq-answer">Yes. Hair color and highlights can be combined with your haircut.</div></div>
+  <div class="faq-item"><button>Where can I see all services?</button><div class="faq-answer">View the full list at https://anudosalon.com/services/.</div></div>
+  <div class="faq-item"><button>How do I contact the salon?</button><div class="faq-answer">Call (303) 835-2375 or email anudo.salon@gmail.com.</div></div>
+  <div class="faq-item"><button>Are you open Sundays?</button><div class="faq-answer">No. The salon is closed Sunday, Monday, and Tuesday.</div></div>
+</section>
+
+<footer>
+  <div class="footer-grid">
+    <div>
+      <h3>Brighton Haircut | A Nu Do Salon</h3>
+      <p>Professional haircut and color services in Brighton, Colorado. Visit the main site for more details and galleries.</p>
+      <p><a href="https://www.anudosalon.com/" target="_blank" rel="noopener">Main Website</a> | 
+      <a href="https://anudosalon.com/services/" target="_blank" rel="noopener">Services</a> | 
+      <a href="https://anudosalon.com/contact/" target="_blank" rel="noopener">Contact</a></p>
+    </div>
+    <div>
+      <h4>Contact</h4>
+      <p>119 W. Bridge St., Unit C<br>Brighton, CO 80601<br>(303) 835-2375</p>
+    </div>
+    <div>
+      <h4>Hours</h4>
+      <p>Wed–Fri 9–7<br>Sat 9–4<br>Closed Sun–Tue</p>
+    </div>
+  </div>
+  <p class="small">© 2026 Brighton Haircut Funnel Page. All rights reserved. | <a href="/sitemap.xml">XML Sitemap</a></p>
+</footer>
+
+<script>
+document.querySelectorAll('.faq-item button').forEach(btn=>{
+  btn.addEventListener('click',()=>{
+    const ans = btn.nextElementSibling;
+    ans.style.display = ans.style.display==='block'?'none':'block';
+  });
+});
+</script>
+
+</body>
+</html>
